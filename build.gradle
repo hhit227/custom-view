@@ -1,0 +1,40 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "config.gradle"
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.2'
+        // classpath 'com.jakewharton:butterknife-gradle-plugin:8.8.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+
+    repositories {
+        mavenLocal()
+        maven { url "https://jitpack.io" }
+        jcenter()
+        google()
+    }
+}
+/*
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'//不使用缓存，使用仓库中最新的包
+}
+
+subprojects {  //表示除主工程外所有子模块
+    dependencies {
+        deployerJars "org.apache.maven.wagon:wagon-http:2.2"
+    }
+
+}*/
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="选择日志级别"
+
+        />
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/lv_single"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:fadeScrollbars="false"
+        android:layout_height="wrap_content"/>
+
+    <!--<CheckedTextView
+        android:id="@+id/btn_level_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="OFF"
+        android:textSize="18sp" />
+    <CheckedTextView
+        android:id="@+id/btn_level_info"
+        android:background="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="INFO"
+        android:textSize="18sp" />
+
+    <CheckedTextView
+        android:id="@+id/btn_level_debug"
+        android:background="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DEBUG"
+        android:textSize="18sp" />
+
+    <CheckedTextView
+        android:id="@+id/btn_level_error"
+        android:background="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ERROR"
+        android:textSize="18sp" />
+
+    <CheckedTextView
+        android:id="@+id/btn_level_warn"
+        android:background="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="WARN"
+        android:textSize="18sp" />
+    <CheckedTextView
+        android:id="@+id/btn_level_verbose"
+        android:background="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="VERBOSE"
+        android:textSize="18sp" />-->
+
+</android.support.v7.widget.LinearLayoutCompat>

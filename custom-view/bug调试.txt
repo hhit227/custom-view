@@ -1,0 +1,2 @@
+获取具体的错误信息
+gradlew processDebugManifest --stacktrace
